@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hello</title>
+    <base target="_self"><!--导航路径-->
+    <meta connet="面向世界，世界你好" name="keyword">
+    <meta name="Description" content="去迎接世界的美好">
+</head>
+<body >
+<h1>123</h1>
+    <p>123</p>
+    <hr>
+<a href="#t1">下表</a><!--本地用#+id，跳转用id来-->
+<div>123</div>
+    156<br>6665
+    <!--测试结束-->
+<a href="https://yys.163.com/"> <img src="./6_292_70f17f76-b06b-4694-9a69-7a05e9b4a8c8_7287c87.jpg"
+                                       title="无敌" alt="meiyou" align="top" height="1000" width="700"></a>
+<form action="D:\newproject\提交数据库" method="get" enctype="multipart/form-data">
+    <!--input (name,value,type)
+    type有text,文本，password密码框，checkbox复选按钮，radio单选按钮如果要互相排斥只要让name一致就OK，file选择浏览文件夹，hidden隐藏
+    button 普通按钮没有任何效果，submit提交按钮，reset重置按钮-->
+    <input type="checkbox" name="动物">狗
+    <input type="checkbox" name="动物"disabled>牛
+    <input type="checkbox" name="动物" checked>兔
+    <input type="checkbox" name="动物" readonly>猪
+    <label>用户名</label>
+    <input type="text" placeholder="傻逼" disabled>
+    <label>密码</label>
+    <input type="password" placeholder="密码"minlength="8" maxlength="16" >
+    <label>个人简介</label>
+    <textarea></textarea>
+    <br><br>
+    <select name="" id="" >
+        <option value="男">男生</option>
+        <option value="女" selected>女生</option>
+    </select>
+    <br><br>
+    <input type="radio"name="sex">男
+    <input type="radio"name="sex" checked>女
+    <input type="radio"name="se">不男不女
+    <br><br>
+    <input type="submit" value="提交" >
+
+</form >
+<table border="1" align="top">
+<tr>
+    <td colspan="2">1.1</td>
+
+    <td id="t1">1.3</td><!--跳转用id来-->
+    <td>1.4</td>
+</tr>
+<tr>
+    <td>2.1</td>
+    <td>2.2</td>
+    <td>2.3</td>
+    <td>2.4</td>
+</tr>
+<tr>
+    <td>3.1</td>
+    <td>3.2</td>
+    <td>3.3</td>
+    <td>3.4</td>
+</tr>
+<tr>
+    <td>4.1</td>
+    <td>4.2</td>
+    <td>4.3</td>
+    <td>4.4</td>
+</tr>
+</table>
+333
+<div>11</div>
+22
+<span>11</span>
+44
+<div></div>
+55
+<span></span>
+666
+<ul>
+    <li>
+        王八蛋
+    </li>
+</ul>
+<ul>
+    <li>
+        兔崽子
+    </li>
+    <li>
+        大傻逼
+    </li>
+</ul>
+<ol>
+    <li>
+        王八蛋
+    </li>
+</ol>
+<ol>
+    <li>
+        兔崽子
+    </li>
+    <li>
+        大傻逼
+    </li>
+</ol>
+<iframe src="" width="0" height="0"></iframe><!--主文件引用此文件-->
+</body>
+</html>
